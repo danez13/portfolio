@@ -1,0 +1,63 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+@theme {
+  --color-midground-50: hsl(281, 100%, 90%);
+  --color-midground-100: hsl(281, 100%, 81.8%);
+  --color-midground-200: hsl(281, 100%, 73.6%);
+  --color-midground-300: hsl(281, 100%, 65.5%);
+  --color-midground-400: hsl(281, 100%, 57.2%);
+  --color-midground-500: hsl(281, 100%, 49%);
+  --color-midground-600: hsl(281, 100%, 40.9%);
+  --color-midground-700: hsl(281, 100%, 32.7%);
+  --color-midground-800: hsl(281, 100%, 24.5%);
+  --color-midground-900: hsl(281, 100%, 16.3%);
+  --color-midground-950: hsl(281, 100%, 8.1%);
+
+  --color-slate-midground-50: hsl(281, 10%, 90%);
+  --color-slate-midground-100: hsl(281, 10%, 81.8%);
+  --color-slate-midground-200: hsl(281, 10%, 73.6%);
+  --color-slate-midground-300: hsl(281, 10%, 65.5%);
+  --color-slate-midground-400: hsl(281, 10%, 57.2%);
+  --color-slate-midground-500: hsl(281, 10%, 49%);
+  --color-slate-midground-600: hsl(281, 10%, 40.9%);
+  --color-slate-midground-700: hsl(281, 10%, 32.7%);
+  --color-slate-midground-800: hsl(281, 10%, 24.5%);
+  --color-slate-midground-900: hsl(281, 10%, 16.3%);
+  --color-slate-midground-950: hsl(281, 10%, 8.1%);
+
+  --color-background: var(--color-slate-midground-50);
+  --color-foreground: var(--color-slate-midground-950);
+}
+
+@layer theme {
+  .dark {
+    --color-midground-50: hsl(155, 100%, 90%);
+    --color-midground-100: hsl(155, 100%, 81.8%);
+    --color-midground-200: hsl(155, 100%, 73.6%);
+    --color-midground-300: hsl(155, 100%, 65.5%);
+    --color-midground-400: hsl(155, 100%, 57.2%);
+    --color-midground-500: hsl(155, 100%, 49%);
+    --color-midground-600: hsl(155, 100%, 40.9%);
+    --color-midground-700: hsl(155, 100%, 32.7%);
+    --color-midground-800: hsl(155, 100%, 24.5%);
+    --color-midground-900: hsl(155, 100%, 16.3%);
+    --color-midground-950: hsl(155, 100%, 8.1%);
+
+    --color-slate-midground-50: hsl(155, 10%, 90%);
+    --color-slate-midground-100: hsl(155, 10%, 81.8%);
+    --color-slate-midground-200: hsl(155, 10%, 73.6%);
+    --color-slate-midground-300: hsl(155, 10%, 65.5%);
+    --color-slate-midground-400: hsl(155, 10%, 57.2%);
+    --color-slate-midground-500: hsl(155, 10%, 49%);
+    --color-slate-midground-600: hsl(155, 10%, 40.9%);
+    --color-slate-midground-700: hsl(155, 10%, 32.7%);
+    --color-slate-midground-800: hsl(155, 10%, 24.5%);
+    --color-slate-midground-900: hsl(155, 10%, 16.3%);
+    --color-slate-midground-950: hsl(155, 10%, 8.1%);
+
+    --color-background: var(--color-slate-midground-950);
+    --color-foreground: var(--color-slate-midground-50);
+  }
+}
