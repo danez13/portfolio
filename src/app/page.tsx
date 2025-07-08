@@ -18,7 +18,7 @@ export default function Home() {
           <Image src="/portrait.png" width="400" height="600" fill={false} alt="animated portrait" className="md:pr-11 lg:pr-15 xl:pr-5"></Image>
           <div className="md:hidden border-1 rounded-2xl bg-slate-midground-200 dark:bg-slate-midground-800 w-10 h-16 animate-bounce before:border-2 before:absolute before:top-2 before:left-4 before:animate-[topY_1s_ease_infinite] before:h-2 before:rounded-lg"></div>
           <div className="flex flex-col gap-5 pt-4 md:pt-6 xl:pt-5 xl:gap-8">
-            <p className="text-xl md:text-2xl lg:text-3xl font-black">Hi, I'm Daniel 👋</p>
+            <p className="text-xl md:text-2xl lg:text-3xl font-black">Hi, I&apos;m Daniel 👋</p>
             <p className="text-lg md:text-xl lg:text-2xl font-extrabold">23 yo from Miami, Florida, USA. Who loves</p>
             <p className="text-4xl md:text-5xl lg:text-7xl font-extrabold">Turning <Highlight>ideas</Highlight> into <Highlight>reality</Highlight></p>
             <p className="text-2xl lg:text-3xl xl:text-2xl font-black">Full-Stack Developer</p>
