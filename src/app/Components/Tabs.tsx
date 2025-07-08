@@ -28,11 +28,11 @@ export default function Tabs({tabs}: {tabs: {id: string, name: string, contents:
     });
 
     return (
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 h-full w-full">
             <div className="bg-slate-midground-500 flex p-1 rounded-lg">
                 {tabButtons}
             </div>
-            <div className="relative border-1 border-slate-midground-500 rounded-lg px-3">
+            <div className="relative border-1 border-slate-midground-500 rounded-lg px-3 w-full">
                 <div className="absolute left-10.5 z-0 h-full border-[0.5px] border-slate-midground-500"></div>
                 <div className="relative z-10 py-5">
                     {tabContents}

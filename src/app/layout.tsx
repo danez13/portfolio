@@ -31,6 +31,7 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
           <Topbar/>
           <div className="h-6 md:h-23 lg:h-10"></div>
           {children}
+          <div className="h-10"></div>
           <Footer/>
         </Providers>
       </body>
