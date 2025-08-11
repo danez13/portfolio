@@ -1,10 +1,10 @@
 import Image from "next/image";
 import { FaFileAlt, FaLinkedin, FaGithub, FaPython, FaWindows, FaBasketballBall } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
-import { RiNextjsLine,RiReactjsLine,RiTailwindCssFill } from "react-icons/ri";
+import { RiNextjsLine,RiReactjsLine,RiTailwindCssFill,RiVercelFill } from "react-icons/ri";
 import { BsGit, BsSourceforge} from "react-icons/bs";
 import { BiLogoTypescript } from "react-icons/bi";
-import { SiStreamlit } from "react-icons/si";
+import { SiStreamlit,SiFastapi } from "react-icons/si";
 import Highlight from "./Components/Highlight";
 import Tabs from "@/app/Components/Tabs";
 import Skill from "./Components/Skill";
@@ -59,6 +59,7 @@ export default function Home() {
           <Skill image={<RiReactjsLine/>} name="ReactJs"/>
           <Skill image={<RiTailwindCssFill/>} name="Tailwind CSS"/>
           <Skill image={<FaPython/>} name="Python"/>
+          <Skill image={<SiFastapi/>} name="FastAPI"/>
           <Skill image={<BsGit/>} name="Git"/>
           <Skill image={<FaGithub/>} name="GitHub"/>
           <Skill image={<BiLogoTypescript/>} name="TypeScript"/>
@@ -73,6 +74,7 @@ export default function Home() {
             <Project image="/portfolio/projects/writeguard.png" name="WriteGuard" desc="a command-line tool that makes write filter configuration easier on Windows systems." links={[{image: <FaGithub/>, name: "Github", link: "https://github.com/danez13/WriteGuard"}, {image: <BsSourceforge/>, name: "Sourceforge", link: "https://sourceforge.net/projects/writeguard/"}]} frameworks={[{image: <FaWindows/>, name: "Batchscript"}, {image: <FaPython/>, name: "Python"}]}/>
             <Project image="/portfolio/projects/portfolio.png" name="Portfolio" desc="The website you are seeing now! 😁" links={[{image: <FaGithub/>, name: "Github", link: "https://github.com/danez13/portfolio"}]} frameworks={[{image: <RiNextjsLine/>, name: "Next.js"}, {image: <RiReactjsLine/>, name: "React"}, {image: <RiTailwindCssFill/>, name: "Tailwind CSS"}, {image:<BiLogoTypescript/>, name:"Typescript"}]}/>
             <Project image="/portfolio/projects/NBA-Hub.png" name="NBA Hub" desc="A web application that provides NBA statistics" links={[{image: <FaGithub/>, name:"Github", link: "https://github.com/danez13/CRRJD_data-driven-basetball-application"},{image:<SiStreamlit/>, name:"Streamlit site", link: "https://danez13-crrjd-data-driven-basetball-application-main-guwczn.streamlit.app/"}]} frameworks={[{image:<SiStreamlit/>, name:"Streamlit"},{image:<FaPython/>, name:"Python"},{image:<FaBasketballBall/>, name:"NBA API"}]}/>
+            <Project image="/portfolio/projects/Fight-Files.png" name="Fight Files" desc="Full Stack MMA Website" links={[{image:<RiVercelFill/>,name:"Vercel site", link:"https://fight-files.vercel.app/"}]} frameworks={[{image: <RiNextjsLine/>, name: "Next.js"},{image: <RiReactjsLine/>, name: "React"},{image: <RiTailwindCssFill/>, name: "Tailwind CSS"}, {image:<BiLogoTypescript/>, name:"Typescript"},{image:<FaPython/>, name:"Python"},{image:<SiFastapi/>,name:"FastAPI"}]}/>
           </div>
       </section>
     </main>
